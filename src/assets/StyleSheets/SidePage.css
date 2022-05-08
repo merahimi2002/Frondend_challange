@@ -1,0 +1,70 @@
+.SidePage__Body{
+    
+    display: block;
+    margin: 2rem 3rem 0rem 0rem;
+}
+.SidePage__SectionTop{
+
+    height:100% ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.SidePage__SectionTopLeft{
+
+    width: calc(30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.SidePage__SectionTopRigth{
+
+    display: flex;
+    width: calc(70% - 2rem );;
+    direction: rtl;
+
+}
+.SidePage__Pic{
+
+    width: 100%;
+    border-radius: 10px;
+}
+.SidePage__Pic img{
+
+    width: 50%;
+    border-radius: 10px;
+}
+.SidePage__Content p{
+
+    width:80%
+}
+video {
+    width: 100%;
+}
+/* this part used for responsive design */
+
+@media only screen and (max-width: 1200px) {
+
+    .SidePage__SectionTop{
+
+        display: block;
+    }
+    .SidePage__SectionTopLeft{
+
+       width: 100%;
+       margin: 5rem;
+    }
+    .SidePage__SectionTopRigth{
+
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+

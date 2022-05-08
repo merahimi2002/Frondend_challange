@@ -1,0 +1,56 @@
+.Main_Body p{
+
+    direction: rtl;
+    margin: 3rem 6rem 0rem 0rem ;
+    color: rgb(0, 0, 0) ; 
+    font-size: xx-large;
+
+}
+.MainPartComponent{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 10rem 20rem 10rem;
+    direction: rtl;
+}
+.NavBarComponent{
+
+    display: flex;
+    margin: 2rem 10rem 0rem 10rem; 
+    border-radius: 100px;
+    direction: rtl;  
+}
+.Main__Text{
+
+    direction: rtl;
+    margin: 0rem 11rem ;
+}
+/* this part used for responsive design */
+
+@media only screen and (max-width: 1400px) {
+
+    .NavBarComponent{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .MainPartComponent{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        direction: rtl;
+        margin: 0;
+    }
+    .Main__Text{
+        text-align: center;
+
+    }
+    
+}
+
+
+
+
+

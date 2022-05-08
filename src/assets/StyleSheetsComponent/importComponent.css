@@ -1,0 +1,3 @@
+/* i creat this part for import all css component file here because component are oftenly use */
+@import "@/assets/StyleSheetsComponent/MainPart.css";
+@import "@/assets/StyleSheetsComponent/Navbar.css";

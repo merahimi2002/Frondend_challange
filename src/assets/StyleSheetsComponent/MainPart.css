@@ -1,0 +1,113 @@
+.MainItem{
+
+    width: calc(33.33% - 2rem); /* 100/3 - margin*/
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem;
+    direction: ltr;
+}
+.MainItem p{
+
+    font-size: large;
+    direction: rtl;
+    margin:2rem;
+  
+}
+
+.MainItem__SectionTwo{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+}
+.MainItem__SectionOne img{
+
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.MainItem__PartOne{
+
+    display: flex;
+    align-items: center;
+}
+.MainItem__PartOne img{
+
+    width: 3rem;
+    border-radius: 24px;
+    
+}
+.MainItem__PartTwo{
+
+    display: flex;
+    align-items: center;
+}
+
+.MainItem__PartTwo img{
+
+    width: 3rem;
+    border-radius: 24px;
+    
+}
+.MainItem__label{
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: black;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.MainItem__Image img{ 
+    
+    border-radius: 0%;
+    width: 1.5rem;
+
+}
+
+.Btn button{
+
+    border-radius: 20px;
+    background-color: rgb(89, 89, 89);
+    color: white;
+    padding: 1rem 2rem;
+    margin: 2rem  ;
+    text-align: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+.Btn button:hover{
+
+    background-color: rgb(0, 0, 0);
+}
+
+/* this part used for responsive design */
+
+@media only screen and (max-width: 1400px) {
+
+    .MainItem{
+
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+
+    .MainItem__SectionTwo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin: 0rem 2rem;
+    }
+    .MainItem{
+
+        width: 70%;
+    }
+
+}
+
+

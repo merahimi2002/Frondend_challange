@@ -1,0 +1,108 @@
+{
+    "status": 200,
+    "metadata": {
+        "total": 6,
+        "folder": {
+            "id": "zKDgL",
+            "title": "\u062f\u0633\u062a\u0647\u200c\u0628\u0646\u062f\u06cc \u0648\u0628\u0644\u0627\u06af",
+            "features": [
+                "id",
+                "image",
+                "nested",
+                "label_slug"
+            ],
+            "nest_limit": 1
+        },
+        "authenticated_user": null
+    },
+    "results": [
+        {
+            "id": "LgBjk",
+            "image": null,
+            "title": "\u0622\u0634\u067e\u0632\u06cc",
+            "slug": "cooking"
+        },
+        {
+            "id": "kaomK",
+            "image": [
+                {
+                    "id": "LpdwL",
+                    "mime_type": "image\/png",
+                    "extension": "png",
+                    "link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730124_6EsZ1Ds8jWmaawPj93YzAyXaZLLLAsOtKgaNqsSv_compress.png",
+                    "versions": {
+                        "panel_thumb": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730124_6EsZ1Ds8jWmaawPj93YzAyXaZLLLAsOtKgaNqsSv_panel_thumb.png"
+                    },
+                    "original_link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730124_6EsZ1Ds8jWmaawPj93YzAyXaZLLLAsOtKgaNqsSv.png"
+                }
+            ],
+            "title": "\u0633\u0628\u06a9 \u0632\u0646\u062f\u06af\u06cc",
+            "slug": "life_style"
+        },
+        {
+            "id": "LANxK",
+            "image": [
+                {
+                    "id": "LwwxL",
+                    "mime_type": "image\/png",
+                    "extension": "png",
+                    "link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730151_bQEMVsraFaxLPbggveLV07g1bTskCOFNoXqb8vzl_compress.png",
+                    "versions": {
+                        "panel_thumb": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730151_bQEMVsraFaxLPbggveLV07g1bTskCOFNoXqb8vzl_panel_thumb.png"
+                    },
+                    "original_link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730151_bQEMVsraFaxLPbggveLV07g1bTskCOFNoXqb8vzl.png"
+                }
+            ],
+            "title": "\u0633\u0644\u0627\u0645\u062a",
+            "slug": "health"
+        },
+        {
+            "id": "YbyPK",
+            "image": null,
+            "title": "\u062f\u0627\u0646\u0633\u062a\u0646\u06cc",
+            "slug": "toknow"
+        },
+        {
+            "id": "Klbnk",
+            "image": [
+                {
+                    "id": "LRQEk",
+                    "mime_type": "image\/png",
+                    "extension": "png",
+                    "link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730242_hoK9Iit1KeveajbN9NVqtaDEBcySD5hX9yi3BTfh_compress.png",
+                    "versions": {
+                        "panel_thumb": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730242_hoK9Iit1KeveajbN9NVqtaDEBcySD5hX9yi3BTfh_panel_thumb.png"
+                    },
+                    "original_link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730242_hoK9Iit1KeveajbN9NVqtaDEBcySD5hX9yi3BTfh.png"
+                }
+            ],
+            "title": "\u0627\u062e\u0628\u0627\u0631 \u062a\u0631\u062e\u06cc\u0646\u0647",
+            "slug": "news"
+        },
+        {
+            "id": "YpZBL",
+            "image": [
+                {
+                    "id": "LqwWY",
+                    "mime_type": "image\/png",
+                    "extension": "png",
+                    "link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730271_uuIIetodLBulTubZXLP2obSdE3hTKzDEisLLF2Ln_compress.png",
+                    "versions": {
+                        "panel_thumb": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730271_uuIIetodLBulTubZXLP2obSdE3hTKzDEisLLF2Ln_panel_thumb.png"
+                    },
+                    "original_link": "https:\/\/tarkhineh-api.yasna.live\/files\/1643730271_uuIIetodLBulTubZXLP2obSdE3hTKzDEisLLF2Ln.png"
+                }
+            ],
+            "title": "\u062a\u0627\u0632\u0647\u200c\u0647\u0627",
+            "slug": "latest"
+        }
+    ],
+    "_debug": {
+        "controller": "Modules\\Tagging\\Http\\Controllers\\V1\\PanelController@labelsList",
+        "jafar": "asd",
+        "electors": [
+            "Modules\\Tagging\\Entities\\Electors\\LabelFolderElector",
+            "Modules\\Tagging\\Entities\\Electors\\LabelWithTrashedElector"
+        ]
+    }
+}
